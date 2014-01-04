@@ -34,6 +34,7 @@ public class Test01 {
 				//Long类的常用方法和常量
 				System.out.println("long的数据总数："+Math.pow(2, 64));
 				System.out.println("long的取值范围："+Long.MIN_VALUE+"~"+Long.MAX_VALUE);
+				@SuppressWarnings("unused")
 				long longValue=Long.parseLong("2000000");
 				System.out.println(intValue);
 				binaryValue=Long.toBinaryString(16);
